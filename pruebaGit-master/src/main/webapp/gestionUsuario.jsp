@@ -4,8 +4,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/CSS/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/CSS/datatables.css">
     <title>Title</title>
 </head>
 <body>
@@ -37,20 +35,5 @@
                <% } %>
         </tbody>
     </table>
-    <script src="${pageContext.request.contextPath}/JS/jquery-3.7.0.js"></script>
-    <script src="${pageContext.request.contextPath}/JS/bootstrap.js"></script>
-    <script src="${pageContext.request.contextPath}/JS/datatables.js"></script>
-    <script src="${pageContext.request.contextPath}/JS/dataTables.bootstrap5.js"></script>
-    <script src="${pageContext.request.contextPath}/JS/es-MX.json"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const table = document.getElementById('example');
-            new DataTable(table, {
-                language: {
-                    url: '${pageContext.request.contextPath}/JS/es-MX.json'
-                }
-            });
-        });
-    </script>
 </body>
 </html>
