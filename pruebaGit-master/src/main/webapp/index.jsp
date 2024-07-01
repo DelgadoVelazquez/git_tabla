@@ -24,5 +24,6 @@
     </form>
     <a href="registroUsuario.jsp">Registrar usuario</a>
     <a href="gestionUsuario.jsp">Gestion de usuario</a>
+    <a href="recupera.jsp">Recupera contraseña</a>
 </body>
 </html>
